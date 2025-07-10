@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editable Input UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <container>
+    <div class="toggle-container">
+      <span class="toggle-label">Theme</span>
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" onchange="toggleMode()" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="container top-left">
+      <h2>Notes</h2>
+      <input type="text" id="input1" placeholder="Enter first text" />
+      <input type="text" id="input2" placeholder="Enter second text" />
+      <button class="submit-btn" onclick="handleSubmit()">Submit</button>
+    </div>
+    <div class="container bottom-right">
+      <h2>Editable Output</h2>
+      <input type="text" id="editInput1" placeholder="First text will appear here..." />
+      <input type="text" id="editInput2" placeholder="Second text will appear here..." />
+      <button class="save-btn" onclick="handleSave()">Save</button>
+    </div>
+  </container>
+    <div id="popupMessage">Saved successfully!</div>
+  
+    <script src="script.js"></script>
+  </body>
+  
+</html>
