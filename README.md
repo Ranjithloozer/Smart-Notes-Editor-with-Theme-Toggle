@@ -12,3 +12,5 @@ toggle to enhance usability and reduce eye strain.
 - ✅ Save confirmation popup on submission
 - 🎨 Clean and responsive user interface
 
+URL:
+https://ranjithloozer.github.io/Smart-Notes-Editor-with-Theme-Toggle/
